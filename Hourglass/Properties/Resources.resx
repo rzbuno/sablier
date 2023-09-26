@@ -139,15 +139,15 @@
     <comment>A format string that contains the date only, where {0} is the date (e.g., "{0}" =&gt; "February 14, 2015")</comment>
   </data>
   <data name="DateTimeTokenDateTimeFormatString" xml:space="preserve">
-    <value>{0} at {1}</value>
+    <value>{0} à {1}</value>
     <comment>A format string that is the concatenation of the date and time, where {0} is the date and {1} is the time (e.g., "{0} at {1}" =&gt; "February 14, 2015 at 2 pm")</comment>
   </data>
   <data name="DateTimeTokenTimeOnlyFormatString" xml:space="preserve">
-    <value>until {0}</value>
+    <value>jusqu'à {0}</value>
     <comment>A format string that contains the time only, where {0} is the time (e.g., "until {0}" =&gt; "until 2 pm")</comment>
   </data>
   <data name="RelativeDateTokenTodayName" xml:space="preserve">
-    <value>today</value>
+    <value>aujourd'hui</value>
     <comment>The friendly name for today</comment>
   </data>
   <data name="RelativeDateTokenTodayPattern" xml:space="preserve">
@@ -155,7 +155,7 @@
     <comment>The regular expression that matches today</comment>
   </data>
   <data name="RelativeDateTokenTomorrowName" xml:space="preserve">
-    <value>tomorrow</value>
+    <value>demain</value>
     <comment>The friendly name for tomorrow</comment>
   </data>
   <data name="RelativeDateTokenTomorrowPattern" xml:space="preserve">
@@ -163,7 +163,7 @@
     <comment>The regular expression that matches tomorrow</comment>
   </data>
   <data name="SpecialDateTokenChristmasDayName" xml:space="preserve">
-    <value>Christmas Day</value>
+    <value>Noël</value>
     <comment>The friendly name for Christmas Day</comment>
   </data>
   <data name="SpecialDateTokenChristmasDayPattern" xml:space="preserve">
@@ -171,7 +171,7 @@
     <comment>The regular expression that matches Christmas Day</comment>
   </data>
   <data name="SpecialDateTokenNewYearName" xml:space="preserve">
-    <value>New Year</value>
+    <value>Nouvel An</value>
     <comment>The friendly name for the New Year</comment>
   </data>
   <data name="SpecialDateTokenNewYearPattern" xml:space="preserve">
@@ -179,7 +179,7 @@
     <comment>The regular expression that matches the New Year</comment>
   </data>
   <data name="SpecialDateTokenNewYearsEveName" xml:space="preserve">
-    <value>New Year's Eve</value>
+    <value>Saint Sylvestre</value>
     <comment>The friendly name for New Year's Eve</comment>
   </data>
   <data name="SpecialDateTokenNewYearsEvePattern" xml:space="preserve">
@@ -187,7 +187,7 @@
     <comment>The regular expression that matches New Year's Eve</comment>
   </data>
   <data name="SpecialTimeTokenMiddayName" xml:space="preserve">
-    <value>12 noon</value>
+    <value>midi</value>
     <comment>The friendly name for 12 noon</comment>
   </data>
   <data name="SpecialTimeTokenMiddayPattern" xml:space="preserve">
@@ -195,7 +195,7 @@
     <comment>The regular expression that matches 12 noon</comment>
   </data>
   <data name="SpecialTimeTokenMidnightName" xml:space="preserve">
-    <value>12 midnight</value>
+    <value>minuit</value>
     <comment>The friendly name for 12 midnight</comment>
   </data>
   <data name="SpecialTimeTokenMidnightPattern" xml:space="preserve">
@@ -203,19 +203,19 @@
     <comment>The regular expression that matches 12 midnight</comment>
   </data>
   <data name="TimeSpanExtensions1DayFormatString" xml:space="preserve">
-    <value>{0} day</value>
+    <value>{0} jour</value>
     <comment>A format string for one day with units, where {0} is the number of days with a possible fraction part (e.g., "{0} day" =&gt; "1 day")</comment>
   </data>
   <data name="TimeSpanExtensionsNDaysFormatString" xml:space="preserve">
-    <value>{0} days</value>
+    <value>{0} jours</value>
     <comment>A format string for N days with units, where {0} is the number of days with a possible fraction part (e.g., "{0} days" =&gt; "5 days")</comment>
   </data>
   <data name="TimeSpanExtensions1HourFormatString" xml:space="preserve">
-    <value>{0} hour</value>
+    <value>{0} heure</value>
     <comment>A format string for one hour with units, where {0} is the number of hours with a possible fraction part (e.g., "{0} hour" =&gt; "1 hour")</comment>
   </data>
   <data name="TimeSpanExtensionsNHoursFormatString" xml:space="preserve">
-    <value>{0} hours</value>
+    <value>{0} heures</value>
     <comment>A format string for N hours with units, where {0} is the number of hours with a possible fraction part (e.g., "{0} hours" =&gt; "5 hours")</comment>
   </data>
   <data name="TimeSpanExtensions1MinuteFormatString" xml:space="preserve">
@@ -227,27 +227,27 @@
     <comment>A format string for N minutes with units, where {0} is the number of minutes with a possible fraction part (e.g., "{0} minutes" =&gt; "5 minutes")</comment>
   </data>
   <data name="TimeSpanExtensions1SecondFormatString" xml:space="preserve">
-    <value>{0} second</value>
+    <value>{0} seconde</value>
     <comment>A format string for one second with units, where {0} is the number of seconds with a possible fraction part (e.g., "{0} second" =&gt; "1 second")</comment>
   </data>
   <data name="TimeSpanExtensionsNSecondsFormatString" xml:space="preserve">
-    <value>{0} seconds</value>
+    <value>{0} secondes</value>
     <comment>A format string for N seconds with units, where {0} is the number of seconds with a possible fraction part (e.g., "{0} seconds" =&gt; "5 seconds")</comment>
   </data>
   <data name="TimeSpanToken1DayFormatString" xml:space="preserve">
-    <value>{0} day</value>
+    <value>{0} jour</value>
     <comment>A format string for one day with units, where {0} is the number of days with a possible fraction part (e.g., "{0} day" =&gt; "1 day")</comment>
   </data>
   <data name="TimeSpanTokenNDaysFormatString" xml:space="preserve">
-    <value>{0} days</value>
+    <value>{0} jours</value>
     <comment>A format string for N days with units, where {0} is the number of days with a possible fraction part (e.g., "{0} days" =&gt; "5 days")</comment>
   </data>
   <data name="TimeSpanToken1HourFormatString" xml:space="preserve">
-    <value>{0} hour</value>
+    <value>{0} heure</value>
     <comment>A format string for one hour with units, where {0} is the number of hours with a possible fraction part (e.g., "{0} hour" =&gt; "1 hour")</comment>
   </data>
   <data name="TimeSpanTokenNHoursFormatString" xml:space="preserve">
-    <value>{0} hours</value>
+    <value>{0} heures</value>
     <comment>A format string for N hours with units, where {0} is the number of hours with a possible fraction part (e.g., "{0} hours" =&gt; "5 hours")</comment>
   </data>
   <data name="TimeSpanToken1MinuteFormatString" xml:space="preserve">
@@ -259,35 +259,35 @@
     <comment>A format string for N minutes with units, where {0} is the number of minutes with a possible fraction part (e.g., "{0} minutes" =&gt; "5 minutes")</comment>
   </data>
   <data name="TimeSpanToken1MonthFormatString" xml:space="preserve">
-    <value>{0} month</value>
+    <value>{0} mois</value>
     <comment>A format string for one month with units, where {0} is the number of months with a possible fraction part (e.g., "{0} month" =&gt; "1 month")</comment>
   </data>
   <data name="TimeSpanTokenNMonthsFormatString" xml:space="preserve">
-    <value>{0} months</value>
+    <value>{0} mois</value>
     <comment>A format string for N months with units, where {0} is the number of months with a possible fraction part (e.g., "{0} months" =&gt; "5 months")</comment>
   </data>
   <data name="TimeSpanToken1SecondFormatString" xml:space="preserve">
-    <value>{0} second</value>
+    <value>{0} seconde</value>
     <comment>A format string for one second with units, where {0} is the number of seconds with a possible fraction part (e.g., "{0} second" =&gt; "1 second")</comment>
   </data>
   <data name="TimeSpanTokenNSecondsFormatString" xml:space="preserve">
-    <value>{0} seconds</value>
+    <value>{0} secondes</value>
     <comment>A format string for N seconds with units, where {0} is the number of seconds with a possible fraction part (e.g., "{0} seconds" =&gt; "5 seconds")</comment>
   </data>
   <data name="TimeSpanToken1WeekFormatString" xml:space="preserve">
-    <value>{0} week</value>
+    <value>{0} semaine</value>
     <comment>A format string for one week with units, where {0} is the number of weeks with a possible fraction part (e.g., "{0} week" =&gt; "1 week")</comment>
   </data>
   <data name="TimeSpanTokenNWeeksFormatString" xml:space="preserve">
-    <value>{0} weeks</value>
+    <value>{0} semaines</value>
     <comment>A format string for N weeks with units, where {0} is the number of weeks with a possible fraction part (e.g., "{0} weeks" =&gt; "5 weeks")</comment>
   </data>
   <data name="TimeSpanToken1YearFormatString" xml:space="preserve">
-    <value>{0} year</value>
+    <value>{0} année</value>
     <comment>A format string for one year with units, where {0} is the number of years with a possible fraction part (e.g., "{0} year" =&gt; "1 year")</comment>
   </data>
   <data name="TimeSpanTokenNYearsFormatString" xml:space="preserve">
-    <value>{0} years</value>
+    <value>{0} années</value>
     <comment>A format string for N years with units, where {0} is the number of years with a possible fraction part (e.g., "{0} years" =&gt; "5 years")</comment>
   </data>
   <data name="Usage" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -414,71 +414,71 @@ $</value>
     <comment>A regular expression that matches time spans in a short format (e.g., "5:30", "1:15:30:00", "7:30")</comment>
   </data>
   <data name="DateTimeExtensionsApril" xml:space="preserve">
-    <value>April</value>
+    <value>Avril</value>
     <comment>The string for April</comment>
   </data>
   <data name="DateTimeExtensionsAugust" xml:space="preserve">
-    <value>August</value>
+    <value>Août</value>
     <comment>The string for August</comment>
   </data>
   <data name="DateTimeExtensionsDecember" xml:space="preserve">
-    <value>December</value>
+    <value>Décembre</value>
     <comment>The string for December</comment>
   </data>
   <data name="DateTimeExtensionsFebruary" xml:space="preserve">
-    <value>February</value>
+    <value>Février</value>
     <comment>The string for February</comment>
   </data>
   <data name="DateTimeExtensionsJanuary" xml:space="preserve">
-    <value>January</value>
+    <value>Janvier</value>
     <comment>The string for January</comment>
   </data>
   <data name="DateTimeExtensionsJuly" xml:space="preserve">
-    <value>July</value>
+    <value>Juillet</value>
     <comment>The string for July</comment>
   </data>
   <data name="DateTimeExtensionsJune" xml:space="preserve">
-    <value>June</value>
+    <value>Juin</value>
     <comment>The string for June</comment>
   </data>
   <data name="DateTimeExtensionsMarch" xml:space="preserve">
-    <value>March</value>
+    <value>Mars</value>
     <comment>The string for March</comment>
   </data>
   <data name="DateTimeExtensionsMay" xml:space="preserve">
-    <value>May</value>
+    <value>Mai</value>
     <comment>The string for May</comment>
   </data>
   <data name="DateTimeExtensionsNndFormatString" xml:space="preserve">
-    <value>{0}nd</value>
+    <value>{0}eme</value>
     <comment>A format string for an n-nd ordinal number (e.g., "{0}nd" =&gt; "2nd")</comment>
   </data>
   <data name="DateTimeExtensionsNovember" xml:space="preserve">
-    <value>November</value>
+    <value>Novembre</value>
     <comment>The string for November</comment>
   </data>
   <data name="DateTimeExtensionsNrdFormatString" xml:space="preserve">
-    <value>{0}rd</value>
+    <value>{0}eme</value>
     <comment>A format string for an n-rd ordinal number (e.g., "{0}rd" =&gt; "3rd")</comment>
   </data>
   <data name="DateTimeExtensionsNstFormatString" xml:space="preserve">
-    <value>{0}st</value>
+    <value>{0}er</value>
     <comment>A format string for an n-st ordinal number (e.g., "{0}st" =&gt; "1st")</comment>
   </data>
   <data name="DateTimeExtensionsNthFormatString" xml:space="preserve">
-    <value>{0}th</value>
+    <value>{0}eme</value>
     <comment>A format string for an n-th ordinal number (e.g., "{0}th" =&gt; "4th")</comment>
   </data>
   <data name="DateTimeExtensionsOctober" xml:space="preserve">
-    <value>October</value>
+    <value>Octobre</value>
     <comment>The string for October</comment>
   </data>
   <data name="DateTimeExtensionsSeptember" xml:space="preserve">
-    <value>September</value>
+    <value>Septembre</value>
     <comment>The string for September</comment>
   </data>
   <data name="DayOfWeekDateTokenAfterNextFormatString" xml:space="preserve">
-    <value>{0} after next</value>
+    <value>{0} semaine plus tard</value>
     <comment>A format string for the date that is one week after the next date that is the specified day of the week, where {0} is the day of the week (e.g., "{0} after next" =&gt; "Wednesday after next")</comment>
   </data>
   <data name="DayOfWeekDateTokenDaysOfWeekAfterNextPattern" xml:space="preserve">
@@ -506,31 +506,31 @@ $</value>
     <comment>A format string for the date next week that is the specified day of the week, where {0} is the day of the week (e.g., "{0} next week" =&gt; "Wednesday next week")</comment>
   </data>
   <data name="DayOfWeekExtensionsFriday" xml:space="preserve">
-    <value>Friday</value>
+    <value>Vendredi</value>
     <comment>The string for Friday</comment>
   </data>
   <data name="DayOfWeekExtensionsMonday" xml:space="preserve">
-    <value>Monday</value>
+    <value>Lundi</value>
     <comment>The string for Monday</comment>
   </data>
   <data name="DayOfWeekExtensionsSaturday" xml:space="preserve">
-    <value>Saturday</value>
+    <value>Samedi</value>
     <comment>The string for Saturday</comment>
   </data>
   <data name="DayOfWeekExtensionsSunday" xml:space="preserve">
-    <value>Sunday</value>
+    <value>Dimanche</value>
     <comment>The string for Sunday</comment>
   </data>
   <data name="DayOfWeekExtensionsThursday" xml:space="preserve">
-    <value>Thursday</value>
+    <value>Jeudi</value>
     <comment>The string for Thursday</comment>
   </data>
   <data name="DayOfWeekExtensionsTuesday" xml:space="preserve">
-    <value>Tuesday</value>
+    <value>Mardi</value>
     <comment>The string for Tuesday</comment>
   </data>
   <data name="DayOfWeekExtensionsWednesday" xml:space="preserve">
-    <value>Wednesday</value>
+    <value>Mercredi</value>
     <comment>The string for Wednesday</comment>
   </data>
   <data name="NormalDateTokenDayAndMonthFormatString" xml:space="preserve">
@@ -733,27 +733,27 @@ $</value>
     <comment>The separator between the units of a time span (e.g., " " =&gt; "5 minutes 30 seconds", " : " =&gt; "5 minutes : 30 seconds")</comment>
   </data>
   <data name="SoundManagerLoudBeep" xml:space="preserve">
-    <value>Loud beep</value>
+    <value>Fort</value>
     <comment>The string for the loud beep sound</comment>
   </data>
   <data name="SoundManagerNormalBeep" xml:space="preserve">
-    <value>Normal beep</value>
+    <value>Normal</value>
     <comment>The string for the normal beep sound</comment>
   </data>
   <data name="SoundManagerQuietBeep" xml:space="preserve">
-    <value>Quiet beep</value>
+    <value>Discret</value>
     <comment>The string for the quiet beep sound</comment>
   </data>
   <data name="ErrorManagerErrorHasBeenWritten" xml:space="preserve">
-    <value>The error has been written to "{0}".</value>
+    <value>L'erreur a été écrite "{0}".</value>
     <comment>The messsage displayed to the user when an error dump is written to a file, where {0} is the path to the file (e.g., "The error has been written to '{0}'." =&gt; "The error has been written to 'C:\error.txt'.")</comment>
   </data>
   <data name="ErrorManagerFailedToClean" xml:space="preserve">
-    <value>Failed to clean old error messages.</value>
+    <value>Echec d'effacement des anciens messages.</value>
     <comment>The message displayed to the user when old error dumps could not be removed</comment>
   </data>
   <data name="ErrorManagerUnexpectedError" xml:space="preserve">
-    <value>An unexpected error has occurred</value>
+    <value>Erreur inattendue</value>
     <comment>The message displayed to the user when an unexpected error occurs</comment>
   </data>
   <data name="CommandLineArgumentsParseExceptionDuplicateSwitchFormatString" xml:space="preserve">
@@ -761,23 +761,23 @@ $</value>
     <comment>A format string for the error message displayed when a command-line argument switch is specified more than once, where {0} is the switch that is specified more than once (e.g., "Duplicate switch '{0}'." =&gt; "Duplicate switch '--full-screen'.")</comment>
   </data>
   <data name="CommandLineArgumentsParseExceptionInvalidTimerInputFormatString" xml:space="preserve">
-    <value>Invalid timer input "{0}"</value>
+    <value>Invalide "{0}"</value>
     <comment>A format string for the error message displayed when an invalid timer input is specified as a command-line argument, where {0} is the invalid timer input (e.g., "Invalid timer input '{0}'." =&gt; "Invalid timer input 'junk'.")</comment>
   </data>
   <data name="CommandLineArgumentsParseExceptionInvalidValueForSwitchFormatString" xml:space="preserve">
-    <value>Invalid value "{1}" for switch "{0}"</value>
+    <value>Invalide "{1}" for switch "{0}"</value>
     <comment>A format string for the error message displayed when a command-line argument switch has an invalid value, where {0} is the switch that has the invalid value and {1} is the invalid value (e.g., "Invalid value '{1}' for switch '{0}'." =&gt; "Invalid value 'junk' for switch '--full-screen'.")</comment>
   </data>
   <data name="CommandLineArgumentsParseExceptionMissingValueForSwitchFormatString" xml:space="preserve">
-    <value>Missing value for switch "{0}"</value>
+    <value>Valeur manquante "{0}"</value>
     <comment>A format string for the error message displayed when a command-line argument switch is missing a value, where {0} is the switch that is missing a value (e.g., "Missing value for switch '{0}'." =&gt; "Missing value for switch '--full-screen'.")</comment>
   </data>
   <data name="CommandLineArgumentsParseExceptionUnrecognizedSwitchFormatString" xml:space="preserve">
-    <value>Unrecognized switch "{0}"</value>
+    <value>Non reconnu "{0}"</value>
     <comment>A format string for the error message displayed when a command-line argument switch is unrecognized, where {0} is the unrecognized switch (e.g., "Unrecognized switch '{0}'." =&gt; "Unrecognized switch '--junk'.")</comment>
   </data>
   <data name="ContextMenuAlwaysOnTopMenuItem" xml:space="preserve">
-    <value>Al_ways on top</value>
+    <value>_Toujours au dessus</value>
     <comment>The text for the always on top menu item, where the character following the optional underscore (_) is the access key</comment>
   </data>
   <data name="ContextMenuClearRecentInputsMenuItem" xml:space="preserve">
